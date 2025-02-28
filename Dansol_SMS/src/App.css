@@ -3,9 +3,8 @@
 :root {
   /* 🎨 Color Palette */
   --primary-color: #1689cd;
-  --secondary-color: #ececec;
-  --background-color: #ffffff;
-  --text-color: #111314;
+  --light-secondary-color: #f0f0f0;
+  --dark-secondary-color: #121212;
   --muted-text-color: #50565a;
 
   /* 🖋 Font Families */
