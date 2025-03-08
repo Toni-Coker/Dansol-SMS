@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Inter:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Inter:wght@400;500;600&display=swap");
 
 :root {
   /* 🎨 Color Palette */
@@ -19,9 +19,9 @@
   --font-size-title: 32px;
 
   /* 📏 Spacing (Margin & Padding) */
-  --spacing-small: 8px;
-  --spacing-medium: 16px;
-  --spacing-large: 24px;
+  --spacing-small: .5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
 
   /* 🖼 Borders & Shadows */
   --border-radius: 8px;
@@ -36,8 +36,52 @@
   --transition: all 0.5s cubic-bezier(0.23, 0.54, 0.6, 1.19), ease-in-out;
 }
 
-footer{
-    background-color: var(--primary-color);
-    color: var(--light-secondary-color);
-    display: flex;
-  }
+body {
+  width: 100vw;
+  text-align: center;
+  max-width: fit-content;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--light-secondary-color);
+  text-align: center;
+  display: flex;
+}
+
+.copyright {
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  align-content: left;
+  padding: var(--spacing-small);
+  margin: var(--spacing-small);
+  width: 100vw;
+}
+
+.credits {
+  display: flex;
+  padding: var(--spacing-small);
+}
+
+#year {
+  padding-right: var(--spacing-small);
+}
+
+.socials {
+  padding: var(--spacing-small);
+  margin:var(--spacing-small);
+  display: flex;
+  justify-content: right;
+  align-content: right;
+}
+
+.socials ul {
+  display: flex;
+  list-style: none;
+}
+
+.socials ul li {
+  color: var(--light-secondary-color);
+  margin-right: var(--spacing-medium);
+}

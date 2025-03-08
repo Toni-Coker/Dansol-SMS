@@ -38,15 +38,17 @@
 
 * {
   max-width: 100vw;
-  margin: auto;
-  padding: 0.5rem;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  text-align: center;
-  transition: var(--transition);
   font-family: var(--font-primary);
 }
 
 h1{
   font-size: 50px;
   font-family: var(--font-secondary);
+}
+
+p{
+  font-size: 20px;
 }

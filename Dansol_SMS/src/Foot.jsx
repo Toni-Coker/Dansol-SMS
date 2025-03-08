@@ -10,21 +10,21 @@ const Foot = () => {
     <div>
       <footer>
         <div className="copyright">
-          <p>
+          <div className="credits">
             &copy; <span id="year">{year}</span> Dansol High School. All rights
             reserved.
-          </p>
+          </div>
         </div>
-        <div className="social">
+        <div className="socials">
           <ul>
             <li>
-              <FaInstagram size={50} color="#f0f0f0" />
+              <FaInstagram size={35}/>
             </li>
             <li>
-            <FaFacebookSquare size={50} color="#f0f0f0" />
+            <FaFacebookSquare size={35}/>
             </li>
             <li>
-              <TbWorldWww size={50} color="#f0f0f0" />
+              <TbWorldWww size={35}/>
             </li>
           </ul>
         </div>
