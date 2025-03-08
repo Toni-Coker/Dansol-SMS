@@ -2,6 +2,7 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
+import { Link } from "react-router-dom";
 import "./Foot.css";
 
 const Foot = () => {
@@ -18,13 +19,19 @@ const Foot = () => {
         <div className="socials">
           <ul>
             <li>
-              <FaInstagram size={35}/>
+              <Link to={"https://www.instagram.com/"}>
+                <FaInstagram size={35} color="#f0f0f0" />
+              </Link>
             </li>
             <li>
-            <FaFacebookSquare size={35}/>
+              <Link to={"https://www.facebook.com/"}>
+                <FaFacebookSquare size={35} color="#f0f0f0" />
+              </Link>
             </li>
             <li>
-              <TbWorldWww size={35}/>
+              <Link to={"https://dansolschools.com"}>
+                <TbWorldWww size={35} color="#f0f0f0" />
+              </Link>
             </li>
           </ul>
         </div>
