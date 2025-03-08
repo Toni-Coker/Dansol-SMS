@@ -50,3 +50,9 @@ h1{
   font-size: 50px;
   font-family: var(--font-secondary);
 }
+
+footer{
+  background-color: var(--primary-color);
+  color: var(--light-secondary-color);
+  display: flex;
+}
