@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  /* 🎨 Color Palette */
+  --primary-color: #1689cd;
+  --light-secondary-color: #f0f0f0;
+  --dark-secondary-color: #121212;
+  --muted-text-color: #50565a;
+
+  /* 🖋 Font Families */
+  --font-primary: "Inter", sans-serif; /* Main font */
+  --font-secondary: "Inter Tight", sans-serif; /* Used for headings, emphasis */
+
+  /* 🖋 Font Sizes */
+  --font-size-small: 14px;
+  --font-size-base: 16px;
+  --font-size-large: 18px;
+  --font-size-heading: 24px;
+  --font-size-title: 32px;
+
+  /* 📏 Spacing (Margin & Padding) */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+
+  /* 🖼 Borders & Shadows */
+  --border-radius: 8px;
+  --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+  /* Button */
+  --button-padding: 12px 20px;
+  --button-radius: 8px;
+  --button-font-weight: 600;
+
+  /* Transitions */
+  --transition: all 0.5s cubic-bezier(0.23, 0.54, 0.6, 1.19), ease-in-out;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: var(--light-secondary-color);
+    display: flex;
+  }

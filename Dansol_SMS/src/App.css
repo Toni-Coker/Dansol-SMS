@@ -37,7 +37,7 @@
 }
 
 * {
-  max-width: 1280px;
+  max-width: 100vw;
   margin: auto;
   padding: 0.5rem;
   box-sizing: border-box;
@@ -49,10 +49,4 @@
 h1{
   font-size: 50px;
   font-family: var(--font-secondary);
-}
-
-footer{
-  background-color: var(--primary-color);
-  color: var(--light-secondary-color);
-  display: flex;
 }
