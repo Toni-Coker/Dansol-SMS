@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './Home'
 import ErrorPage from './ErrorPage'
 import Foot from './Foot'
+import Login from './components/Login'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='*' element={<ErrorPage />}></Route>
+        <Route path='/login' element={<Login />}></Route>
       </Routes>
       <Foot />
     </Router>

@@ -85,12 +85,16 @@ body {
   border-radius: var(--button-radius);
   font-weight: var(--button-font-weight);
   background-color: var(--primary-color);
-  color: var(--light-secondary-color);
   border: none;
   cursor: pointer;
   transition: var(--transition);
   width: 30vw; /* Adjust button width */
   height: 8vh;
+}
+
+.primary-buttons a button{
+  color: var(--light-secondary-color);
+  text-decoration: none;
 }
 
 .primary-buttons button:hover {
@@ -110,10 +114,14 @@ body {
   border-radius: var(--button-radius);
   font-weight: var(--button-font-weight);
   background-color: var(--dark-secondary-color);
-  color: var(--light-secondary-color);
   border: none;
   cursor: pointer;
   transition: var(--transition);
+}
+
+.secondary-button a button{
+  text-decoration: none;
+  color: var(--light-secondary-color);
 }
 
 .secondary-button button:hover {
