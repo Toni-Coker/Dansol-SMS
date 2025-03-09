@@ -61,6 +61,60 @@ body {
 }
 
 .header h1{
-  margin: var(--spacing-small);
+  margin: var(--spacing-medium);
+  cursor: pointer;
 }
 
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center everything */
+  justify-content: center; /* Center vertically */
+  height: 60vh; /* Adjust as needed */
+}
+
+.primary-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two buttons per row */
+  gap: var(--spacing-small); /* Space between buttons */
+}
+
+.primary-buttons button {
+  padding: var(--button-padding);
+  border-radius: var(--button-radius);
+  font-weight: var(--button-font-weight);
+  background-color: var(--primary-color);
+  color: var(--light-secondary-color);
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+  width: 30vw; /* Adjust button width */
+  height: 8vh;
+}
+
+.primary-buttons button:hover {
+  background-color: darken(var(--primary-color), 10%);
+}
+
+.secondary-button {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-medium);
+}
+
+.secondary-button button {
+  width: 60.7vw; /* Twice the width of a primary button */
+  height: 8vh;
+  padding: var(--button-padding);
+  border-radius: var(--button-radius);
+  font-weight: var(--button-font-weight);
+  background-color: var(--dark-secondary-color);
+  color: var(--light-secondary-color);
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.secondary-button button:hover {
+  background-color: lighten(var(--dark-secondary-color), 10%);
+}
