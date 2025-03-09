@@ -1,8 +1,9 @@
 import React from "react";
+import './Home.css'
 
 const Home = () => {
   return (
-    <div>
+    <div className="overlay">
       <div className="header">
         <h1 className="heading">Dansol App</h1>
       </div>

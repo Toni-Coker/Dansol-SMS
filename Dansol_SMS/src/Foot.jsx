@@ -19,18 +19,18 @@ const Foot = () => {
         <div className="socials">
           <ul>
             <li>
-              <Link to={"https://www.instagram.com/"}>
-                <FaInstagram size={35} color="#f0f0f0" />
+              <Link to={"https://www.instagram.com/dansolschools/"} target="_blank" rel="noopener noreferrer">
+                <FaInstagram size={35} />
               </Link>
             </li>
             <li>
-              <Link to={"https://www.facebook.com/"}>
-                <FaFacebookSquare size={35} color="#f0f0f0" />
+              <Link to={"https://web.facebook.com/dansolschools/"} target="_blank" rel="noopener noreferrer">
+                <FaFacebookSquare size={35}/>
               </Link>
             </li>
             <li>
-              <Link to={"https://dansolschools.com"}>
-                <TbWorldWww size={35} color="#f0f0f0" />
+              <Link to={"https://dansolschools.com"} target="_blank" rel="noopener noreferrer">
+                <TbWorldWww size={35} />
               </Link>
             </li>
           </ul>

@@ -19,9 +19,9 @@
   --font-size-title: 32px;
 
   /* 📏 Spacing (Margin & Padding) */
-  --spacing-small: 8px;
-  --spacing-medium: 16px;
-  --spacing-large: 24px;
+  --spacing-small: .5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
 
   /* 🖼 Borders & Shadows */
   --border-radius: 8px;
@@ -33,7 +33,7 @@
   --button-font-weight: 600;
 
   /* Transitions */
-  --transition: all 0.5s cubic-bezier(0.23, 0.54, 0.6, 1.19), ease-in-out;
+  --transition: 0.5s cubic-bezier(0.23, 0.54, 0.6, 1.19);
 }
 
 
@@ -74,4 +74,16 @@ footer {
 
 .socials ul li {
   margin-left: var(--spacing-small);
+  text-decoration: none;
+}
+
+.socials ul li a {
+  color: var(--light-secondary-color); /* Maintain consistent color */
+  text-decoration: none; /* Remove underline */
+  display: inline-block;
+  transition: var(--transition);
+}
+
+.socials ul li a:hover{
+  transform: scale(1.1);
 }
