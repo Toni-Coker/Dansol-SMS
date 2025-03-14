@@ -1,18 +1,22 @@
 import React from "react";
+import './Login.css'
 
 const Login = () => {
   return (
     <div className="overlay">
-      <div className="header">
-        <h1 className="heading">Log In</h1>
-      </div>
-      <div className="Login-field">
-        <form>
-            <label htmlFor="">School ID</label>
-            <input type="text" placeholder="Input ID here" />
-            <label htmlFor="">Password</label>
-            <input type="text" placeholder="Input Password here" />
-        </form>
+      <div className="login-container">
+        <div className="header">
+          <h1 className="heading">Log In</h1>
+        </div>
+        <div className="login-field">
+          <form>
+            <label htmlFor="school-id">School ID</label>
+            <input type="text" id="school-id" placeholder="Input ID here" />
+            <label htmlFor="password">Password</label>
+            <input type="password" id="password" placeholder="Input Password here" />
+            <button type="submit" className="login-button">Log In</button>
+          </form>
+        </div>
       </div>
     </div>
   );
