@@ -108,3 +108,7 @@ input {
   cursor: pointer;
   transition: var(--transition);
 }
+
+.login-button:hover{
+  transform: scale(1.1);
+}
